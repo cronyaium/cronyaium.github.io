@@ -22,19 +22,7 @@
       <pubDate>Tue, 05 Oct 2021 10:27:50 +0800</pubDate>
       
       <guid>https://cronyaium.github.io/post/build-a-blog/</guid>
-      <description>怎样搭建一个博客（基于Linux&amp;amp;Hugo&amp;amp;Git） 0x00. 前置知识 1. Linux   有一个带有Linux系统或者Linux虚拟机（带图形界面）的电脑
-  熟悉Linux的基本命令（比如说cd，mkdir，ls等）
-  熟悉vim的简单使用
-  参考资料：
- runoob-Linux 《鸟哥的Linux私房菜》（P.S 内容有一部分过时，选读即可）    2. Markdown   这个比较简单，很容易上手，但也很有用处，写博客的时候基本上都是用Markdown，常见的***.md***后缀的文件就是用它写的
-  不需要学到涉及到html的相关内容，当然能了解也很好
-  参考资料：
- runoob-Markdown    3. Git   这个稍微复杂一些，可能需要一段时间 (也可能是我太菜了)
-  建议顺便学习GitHub使用相关的一些内容
-  参考资料：
- runoob-Git 《Pro Git》 (英文电子书，阅读过程中可能会有一些困难，建议查单词并在书中备注)     然后就米有辣！！学好了就可以开始啦！！
- 0x01. 安装Hugo  以下所有操作都是在root用户（CentOS 8发行版）下进行
- 1. 下载Hugo包 wget https://github.</description>
+      <description></description>
     </item>
     
   </channel>
