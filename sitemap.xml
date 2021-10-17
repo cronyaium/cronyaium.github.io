@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cronyaium.github.io/post/blogging/</loc>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
+  </url><url>
     <loc>https://cronyaium.github.io/categories/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/categories/category/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/post/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/categories/subcategory/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/tags/tag1/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/tags/tag2/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/tags/</loc>
-    <lastmod>2021-10-17T21:47:45+08:00</lastmod>
+    <lastmod>2021-10-17T22:24:34+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/post/test/</loc>
     <lastmod>2021-10-17T21:47:45+08:00</lastmod>
-  </url><url>
-    <loc>https://cronyaium.github.io/post/build-a-blog/</loc>
-    <lastmod>2021-10-05T10:27:50+08:00</lastmod>
   </url><url>
     <loc>https://cronyaium.github.io/archives/</loc>
   </url>

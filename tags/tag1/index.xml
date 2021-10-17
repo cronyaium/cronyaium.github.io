@@ -6,22 +6,22 @@
     <description>Recent content in tag1 on my blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Oct 2021 21:47:45 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Oct 2021 22:24:34 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://cronyaium.github.io/post/blogging/</link>
+      <pubDate>Sun, 17 Oct 2021 22:24:34 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/post/blogging/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Test</title>
       <link>https://cronyaium.github.io/post/test/</link>
       <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
       
       <guid>https://cronyaium.github.io/post/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Build a Blog</title>
-      <link>https://cronyaium.github.io/post/build-a-blog/</link>
-      <pubDate>Tue, 05 Oct 2021 10:27:50 +0800</pubDate>
-      
-      <guid>https://cronyaium.github.io/post/build-a-blog/</guid>
       <description></description>
     </item>
     

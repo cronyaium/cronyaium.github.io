@@ -1,0 +1,268 @@
+---
+title: "Build a Blog"
+date: 2021-10-05T10:27:50+08:00
+categories:
+- category
+- subcategory
+tags:
+- tag1
+- tag2
+keywords:
+- tech
+#thumbnailImage: //example.com/image.jpg
+---
+
+<!--more-->
+
+# 怎样搭建一个博客（基于*Linux&Hugo&Git*）
+
+
+
+## 0x00. 前置知识
+
+
+
+### 1. *Linux*
+
+* 有一个带有***Linux***系统或者***Linux***虚拟机（带图形界面）的电脑
+
+
+
+* 熟悉***Linux***的基本命令（比如说cd，mkdir，ls等）
+
+
+
+* 熟悉***vim***的简单使用
+
+
+
+* 参考资料：
+  * [runoob-Linux](https://www.runoob.com/linux/linux-tutorial.html)
+  * 《鸟哥的Linux私房菜》（P.S 内容有一部分过时，选读即可）
+
+
+
+### 2. *Markdown*
+
+* 这个比较简单，很容易上手，但也很有用处，写博客的时候基本上都是用***Markdown***，常见的***\.md***后缀的文件就是用它写的
+
+
+
+* 不需要学到涉及到***html***的相关内容，当然能了解也很好
+
+
+
+* 参考资料：
+  * [runoob-Markdown](https://www.runoob.com/markdown/md-tutorial.html)
+
+
+
+### 3. *Git*
+
+* 这个稍微复杂一些，可能需要一段时间 ~~\(也可能是我太菜了)~~
+
+
+
+* 建议顺便学习***GitHub***使用相关的一些内容  
+
+
+
+* 参考资料：
+  * [runoob-Git](https://www.runoob.com/git/git-tutorial.html)
+  * [《Pro Git》](https://git-scm.com/book/en/v2) (英文电子书，阅读过程中可能会有一些困难，建议查单词并在书中备注)
+
+
+
+> 然后就米有辣！！学好了就可以开始啦！！
+
+
+
+## 0x01. 安装Hugo
+
+
+
+> 以下所有操作都是在root用户（CentOS 8发行版）下进行
+
+
+
+### 1. 下载*Hugo*包
+
+
+
+```  
+wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.tar.gz
+```
+
+
+
+可以根据最新版本修改网址（可以换成extended版本）
+
+
+
+如果下载失败可以重试几次或者试试科学上网
+
+
+
+### 2. 安装
+
+
+
+``` 
+tar -zxf hugo_0.88.1_Linux-64bit.tar.gz
+```
+
+
+
+打包结束后，执行
+
+
+
+```
+sudo cp ./hugo /usr/local/bin
+```
+
+
+
+检查是否安装
+
+
+
+```
+hugo version
+```
+
+
+
+如果成功安装，会出现类似与下面的反馈
+
+
+
+```
+hugo v0.88.1-5BC54738 linux/amd64 BuildDate=2021-09-04T09:39:19Z VendorInfo=gohugoio
+```
+
+
+
+## 0x02. 利用*Hugo*新建文章
+
+
+
+执行
+
+
+
+```
+hugo new site [directory]
+```
+
+
+
+其中\[directory\]替换为你自己喜欢的目录
+
+
+
+然后会在目录下新建一批目录，包含一些配置文件
+
+
+
+```
+目录：archetypes  content  data  layouts  resources  static  themes
+
+文件：config.toml
+```
+
+
+
+然后执行
+
+
+
+```
+hugo new post/[name].md
+```
+
+
+
+其中\[name\]替换成你自己喜欢的名字
+
+
+
+然后
+
+
+
+``` 
+cd content/post
+
+vim [name].md
+```
+
+
+
+在vim中可以看到有配置的一些信息，在文末换行用Markdown写下你想写的内容，保存并退出
+
+
+
+### 0x03. 配置theme
+
+
+
+cd回到\[directory\]
+
+
+
+可以在[这里](https://themes.gohugo.io/)查看你心喜的theme，这将成为你blog的主题
+
+
+
+选择好之后，在[这里](https://github.com/gohugoio/hugoThemes)找到对应的主题，然后下载下来
+
+
+
+> P.S 请提前安装好git
+
+
+
+```
+git clone --depth 1 --recursive https://github.com/spf13/hugoThemes/[你的theme].git themes/[你的theme的名称或者随便什么都可以]
+```
+
+
+
+同样的，网络不畅可以多试几次
+
+
+
+### 0x04. 启动hugo服务
+
+
+
+cd回到\[directory\]
+
+
+
+```
+hugo server --theme=[你的theme的名称或者随便什么都可以] --buildDrafts
+```
+
+
+
+成功后在FireFox访问
+
+
+
+```
+http://localhost:1313
+```
+
+
+
+就可以辣！！
+
+
+
+### 0x05. 在本机上访问hugo搭建的网址
+
+
+
+可以参考[这里](https://www.cnblogs.com/goujian/p/11823808.html)
