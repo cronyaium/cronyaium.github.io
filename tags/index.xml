@@ -5,6 +5,25 @@
     <link>https://cronyaium.github.io/tags/</link>
     <description>Recent content in Tags on my blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://cronyaium.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Oct 2021 21:47:45 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tag1</title>
+      <link>https://cronyaium.github.io/tags/tag1/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag2</title>
+      <link>https://cronyaium.github.io/tags/tag2/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
