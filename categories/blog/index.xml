@@ -6,7 +6,16 @@
     <description>Recent content in blog on my blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Oct 2021 21:47:45 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Oct 2021 22:24:34 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://cronyaium.github.io/post/blogging/</link>
+      <pubDate>Sun, 17 Oct 2021 22:24:34 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/post/blogging/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>my first blog</title>
       <link>https://cronyaium.github.io/post/test/</link>
