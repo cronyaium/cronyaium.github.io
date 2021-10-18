@@ -25,5 +25,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>blog</title>
+      <link>https://cronyaium.github.io/categories/blog/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first blog</title>
+      <link>https://cronyaium.github.io/categories/first-blog/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/categories/first-blog/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

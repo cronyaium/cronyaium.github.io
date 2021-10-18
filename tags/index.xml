@@ -25,5 +25,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>hello,world</title>
+      <link>https://cronyaium.github.io/tags/helloworld/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/tags/helloworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://cronyaium.github.io/tags/test/</link>
+      <pubDate>Sun, 17 Oct 2021 21:47:45 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
