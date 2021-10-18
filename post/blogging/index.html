@@ -280,9 +280,9 @@
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
-              <h1 id="怎样搭建一个博客基于linuxhugogit">怎样搭建一个博客（基于<em>Linux&amp;Hugo&amp;Git</em>）</h1>
+              <h1 id="怎样搭建一个博客基于linuxhugogitgithub">怎样搭建一个博客（基于<em>Linux&amp;Hugo&amp;Git&amp;GitHub</em>）</h1>
 <h2 id="0x00-前置知识">0x00. 前置知识</h2>
-<h3 id="1-linux">1. <em>Linux</em></h3>
+<h3 id="0x01-linux">0x01. <em>Linux</em></h3>
 <ul>
 <li>
 <p>有一个带有<em><strong>Linux</strong></em>系统或者<em><strong>Linux</strong></em>虚拟机（带图形界面）的电脑</p>
@@ -301,10 +301,10 @@
 </ul>
 </li>
 </ul>
-<h3 id="2-markdown">2. <em>Markdown</em></h3>
+<h3 id="0x02-markdown">0x02. <em>Markdown</em></h3>
 <ul>
 <li>
-<p>这个比较简单，很容易上手，但也很有用处，写博客的时候基本上都是用<em><strong>Markdown</strong></em>，常见的<code>\.md</code>后缀的文件就是用它写的</p>
+<p>这个比较简单，很容易上手，但也很有用处，写博客的时候基本上都是用<em><strong>Markdown</strong></em>，常见的***.md***后缀的文件就是用它写的</p>
 </li>
 <li>
 <p>不需要学到涉及到<em><strong>html</strong></em>的相关内容，当然能了解也很好</p>
@@ -316,7 +316,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="3-git">3. <em>Git</em></h3>
+<h3 id="0x03-git">0x03. <em>Git</em></h3>
 <ul>
 <li>
 <p>这个稍微复杂一些，可能需要一段时间 <del>(也可能是我太菜了)</del></p>
@@ -335,14 +335,15 @@
 <blockquote>
 <p>然后就米有辣！！学好了就可以开始啦！！</p>
 </blockquote>
-<h2 id="0x01-安装hugo">0x01. 安装Hugo</h2>
+<h2 id="0x10-本地环境搭建">0x10. 本地环境搭建</h2>
+<h3 id="0x11-安装hugo">0x11. 安装Hugo</h3>
 <blockquote>
 <p>以下所有操作都是在root用户（CentOS 8发行版）下进行</p>
 </blockquote>
 <h3 id="1-下载hugo包">1. 下载<em>Hugo</em>包</h3>
 <pre tabindex="0"><code>wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.tar.gz
 </code></pre><p>可以根据最新版本修改网址（可以换成<code>extended</code>版本）</p>
-<p>如果下载失败可以重试几次或者试试科学上网</p>
+<p>强烈建议<code>科学上网</code></p>
 <h3 id="2-安装">2. 安装</h3>
 <pre tabindex="0"><code>tar -zxf hugo_0.88.1_Linux-64bit.tar.gz
 </code></pre><p>打包结束后，执行</p>
@@ -351,15 +352,36 @@
 <pre tabindex="0"><code>hugo version
 </code></pre><p>如果成功安装，会出现类似于下面的反馈</p>
 <pre tabindex="0"><code>hugo v0.88.1-5BC54738 linux/amd64 BuildDate=2021-09-04T09:39:19Z VendorInfo=gohugoio
-</code></pre><h2 id="0x02-利用hugo新建文章">0x02. 利用<em>Hugo</em>新建文章</h2>
-<p>执行</p>
-<pre tabindex="0"><code>hugo new site [directory]
-</code></pre><p>其中<code>[directory]</code>替换为你自己喜欢的目录</p>
-<p>然后会在目录下新建一批目录，包含一些配置文件</p>
+</code></pre><h3 id="0x12-新建一个网站">0x12. 新建一个网站</h3>
+<p>首先新建一个网站，执行</p>
+<pre tabindex="0"><code>hugo new site [web]
+</code></pre><p>其中<code>[web]</code>替换为你自己喜欢的目录</p>
+<p>进入<code>[web]</code>目录</p>
+<pre tabindex="0"><code>cd [web]/
+</code></pre><p>然后会在目录下新建一批目录，包含一些配置文件</p>
 <pre tabindex="0"><code>目录：archetypes  content  data  layouts  resources  static  themes
 
 文件：config.toml
-</code></pre><p>然后执行</p>
+</code></pre><h3 id="0x13-配置theme">0x13. 配置theme</h3>
+<p>可以在<a href="https://themes.gohugo.io/">这里</a>查看你心喜的theme，这将成为你blog的主题</p>
+<p>选择好之后，在<a href="https://github.com/gohugoio/hugoThemes">这里</a>找到对应的主题，然后下载下来</p>
+<blockquote>
+<p>P.S 请提前安装好git</p>
+</blockquote>
+<p>我使用的是<code>tranquilpeak</code>主题，首先进入themes目录</p>
+<pre tabindex="0"><code>cd themes/ 
+</code></pre><p>从远程仓库下载到本地</p>
+<pre tabindex="0"><code>git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak
+</code></pre><p>不同的theme参照它的文档的指引进行</p>
+<p>然后需要对<code>[web]</code>目录里的<code>config.toml</code>文件进行修改</p>
+<p>先备份</p>
+<pre tabindex="0"><code>cp config.toml config.backup
+</code></pre><p>然后复制范例网站的<code>config.toml</code>文件覆盖<code>[web]</code>目录下的<code>config.toml</code></p>
+<pre tabindex="0"><code>cp ./themes/tranquilpeak/exampleSite/config.toml ./
+</code></pre><p>选择覆盖，然后<code>vim</code>编辑<code>config.toml</code>文件，根据提示进行修改</p>
+<h3 id="0x14-利用hugo新建文章">0x14. 利用<em>Hugo</em>新建文章</h3>
+<p>首先<code>cd</code>回到<code>[web]</code>目录</p>
+<p>然后新建文章</p>
 <pre tabindex="0"><code>hugo new post/[name].md
 </code></pre><p>其中<code>[name]</code>替换成你自己喜欢的名字</p>
 <p>然后</p>
@@ -367,23 +389,40 @@
 
 vim [name].md
 </code></pre><p>在<code>vim</code>中可以看到有配置的一些信息，在文末换行用<code>Markdown</code>写下你想写的内容，保存并退出</p>
-<h3 id="0x03-配置theme">0x03. 配置theme</h3>
-<p><code>cd</code>回到<code>[directory]</code></p>
-<p>可以在<a href="https://themes.gohugo.io/">这里</a>查看你心喜的theme，这将成为你blog的主题</p>
-<p>选择好之后，在<a href="https://github.com/gohugoio/hugoThemes">这里</a>找到对应的主题，然后下载下来</p>
-<blockquote>
-<p>P.S 请提前安装好git</p>
-</blockquote>
-<pre tabindex="0"><code>git clone --depth 1 --recursive https://github.com/spf13/hugoThemes/[你的theme].git themes/[你的theme的名称或者随便什么都可以]
-</code></pre><p>同样的，网络不畅可以多试几次</p>
-<h3 id="0x04-启动hugo服务">0x04. 启动hugo服务</h3>
-<p><code>cd</code>回到<code>[directory]</code></p>
-<pre tabindex="0"><code>hugo server --theme=[你的theme的名称或者随便什么都可以] --buildDrafts
+<h3 id="0x14-启动hugo服务">0x14. 启动hugo服务</h3>
+<p><code>cd</code>回到<code>[web]</code></p>
+<pre tabindex="0"><code>hugo server --buildDrafts
 </code></pre><p>成功后在FireFox访问</p>
 <pre tabindex="0"><code>http://localhost:1313
 </code></pre><p>就可以辣！！</p>
-<h3 id="0x05-在本机上访问hugo搭建的网址">0x05. 在本机上访问hugo搭建的网址</h3>
+<h3 id="0x15-在本机上访问hugo搭建的网址">0x15. 在本机上访问hugo搭建的网址</h3>
 <p>可以参考<a href="https://www.cnblogs.com/goujian/p/11823808.html">这里</a></p>
+<h2 id="0x20-通过git将blog输送到github">0x20. 通过git将blog输送到GitHub</h2>
+<p>如果上面的都完成了，那么恭喜你已经可以在本地访问了！</p>
+<p>但是我们如果希望要其他人也能通过网络访问到我们的blog，那么我们就需要通过<code>git</code>将blog输送到远程仓库<code>GitHub</code></p>
+<p>然后通过<code>GitHub Page</code>，我们就可以让其他人通过网络访问到我们的blog</p>
+<h3 id="0x21-在github中新建一个仓库">0x21. 在GitHub中新建一个仓库</h3>
+<p><del>默认你已经会注册并且已经注册了一个GiIHub账户</del></p>
+<p>仓库的名称起名为<code>[你的用户名].github.io</code></p>
+<h3 id="0x22-生成html文件">0x22. 生成html文件</h3>
+<p>在<code>blog</code>目录下，执行</p>
+<pre tabindex="0"><code>hugo
+</code></pre><h3 id="0x23-将生成的html文件传输到github">0x23. 将生成的html文件传输到GitHub</h3>
+<p>进入<code>public</code>目录</p>
+<pre tabindex="0"><code>cd public/
+</code></pre><p>然后初始化git仓库</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>将工作树文件传输到暂存区</p>
+<pre tabindex="0"><code>git add .
+</code></pre><p>将暂存区文件传输到本地资源库</p>
+<pre tabindex="0"><code>git commit -m &quot;my first blog&quot;
+</code></pre><p>关联远程仓库</p>
+<pre tabindex="0"><code>git remote add origin git@github.com:yourname/yourname.github.io.git
+</code></pre><p>P.S 可能需要使用ssh密钥，参考度娘</p>
+<p>将本地资源库文件传输到远程资源库</p>
+<pre tabindex="0"><code>git push -u origin master
+</code></pre><p>成功后就可以试着访问一下了</p>
+<p><em>to be continued..</em></p>
               
 
 
