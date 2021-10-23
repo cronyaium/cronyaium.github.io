@@ -6,7 +6,16 @@
     <description>Recent content in Posts on my blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 16:55:41 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Oct 2021 23:53:35 +0800</lastBuildDate><atom:link href="https://cronyaium.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICS2020-NJU-1</title>
+      <link>https://cronyaium.github.io/post/ics2020_1/</link>
+      <pubDate>Sat, 23 Oct 2021 23:53:35 +0800</pubDate>
+      
+      <guid>https://cronyaium.github.io/post/ics2020_1/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Todolist</title>
       <link>https://cronyaium.github.io/post/todolist/</link>
