@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "LI Xiaoyuan / HomePage"
+title                    : "Xiaoyuan LI / HomePage"
 title_separator          : "-"
-name                     : &name "LI Xiaoyuan"
+name                     : &name "Xiaoyuan LI"
 description              : &description "personal description"
 url                      : https://cronyaium.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,10 +22,10 @@ repository               : "cronyaium/cronyaium.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "LI Xiaoyuan"
+  name             : "Xiaoyuan LI"
   pronouns         : "he/him"  
   bio              : "HUSTer"
-  location         : "Earth"
+  location         : "Wuhan, China"
   employer         : "Huazhong University of Science and Technology"
   uri              : # URL
   email            : "cronyaium@gmail.com" 

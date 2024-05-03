@@ -23,6 +23,7 @@ National Scholarship in China, 2023
 Projects
 ======
 **CMU 15-445 BUSTUB**
+
 BUSTUB is a database developed based on C++ that supports simple SQL operations.
   
 The underlying design is BufferPool based on LRU, and all page operations are performed on BufferPool. At the same time, an scalable hash table is implemented in the Buffer Pool.
@@ -49,11 +50,11 @@ Awards and Honors
 ======
 National Scholarship, Ministry of Education of P.R. China, 2023
 
-Provincial Bronze Medal, China Collegiate Programming Contest(CCPC)}, 2022
+Provincial Bronze Medal, China Collegiate Programming Contest(CCPC), 2022
 
-National Bronze Medal, Collegiate Computer Systems \& Programming contest(CCSP)}, 2022&2023
+National Bronze Medal, Collegiate Computer Systems & Programming contest(CCSP), 2022&2023
 
-National Third Class Prize and Provincial First Class Prize, The 14th Blue Bridge Cup National Software and Information Technology Professional Talent Competition}, 2023
+National Third Class Prize and Provincial First Class Prize, The 14th Blue Bridge Cup National Software and Information Technology Professional Talent Competition, 2023
 
 CCF Certified Software Professional(CSP), 430/500, Top 0.34%, 2024
 
@@ -63,4 +64,4 @@ Merit Student, HUST, 2022&2023
 
 Courses
 ======
-Advanced Programming Language(C) (93), Calculus(I)(A) (98), Physics(I) (90), Discrete Mathematics(I) (96), Guide for Cryptography (99), Comprehensive Practice of Network Security(I) (91), Calculus(I)(B) (96), Physics(II) (97), Probability Theory and Mathematical Statistics (93), Assembly Language Programming(98), Numerical Analysis(97), Discrete Mathematics(II) (99), Data Structure (96), Introduction to Information Technologies (95), Course Project of Programming (93), Computer Telecommunication & Network (93), Computer Organization (90), Digital Circuit and Logic Design (90), Comprehensive Practice of Cyberspace Security(II) (93), Foundation of Information Security Mathematics (91), Information Theory and Coding (100), Hardware Description Language and Digital System Design (92), Compiler Principles (90), Compiler Principles Experiments (96), Advanced Cryptography Application (90), Cryptographic Engineering (93), Course Project of Cryptography, Algorithmic Design & Analysis (95)
+Advanced Programming Language(C) (93), Calculus(I)(A) (98), Physics(I) (90), Discrete Mathematics(I) (96), Guide for Cryptography (99), Comprehensive Practice of Network Security(I) (91), Calculus(I)(B) (96), Physics(II) (97), Probability Theory and Mathematical Statistics (93), Assembly Language Programming(98), Numerical Analysis(97), Discrete Mathematics(II) (99), Data Structure (96), Introduction to Information Technologies (95), Course Project of Programming (93), Computer Telecommunication & Network (93), Computer Organization (90), Digital Circuit and Logic Design (90), Comprehensive Practice of Cyberspace Security(II) (93), Foundation of Information Security Mathematics (91), Information Theory and Coding (100), Hardware Description Language and Digital System Design (92), Compiler Principles (90), Compiler Principles Experiments (96), Advanced Cryptography Application (90), Cryptographic Engineering (93), Course Project of Cryptography (98), Algorithmic Design & Analysis (95)
